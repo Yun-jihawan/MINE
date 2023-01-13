@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paper_background"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnSetLock"
+        android:onClick="btnSetLock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="잠금 설정"/>
+
+    <Button
+        android:id="@+id/btnSetDelLock"
+        android:onClick="btnSetDelLock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="잠금 비활성화"/>
+
+    <Button
+        android:id="@+id/btnChangePwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnChangePwd"
+        android:text="암호 변경" />
+</LinearLayout>
